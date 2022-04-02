@@ -11,7 +11,27 @@
 
 (function() {
     GM_addStyle(`
+/* ------------ Modifications by d-k-bo ------ */
 
+/* fix background of left bar */
+
+.os-col {
+    background: #333;
+}
+
+/* fix background of variable view */
+
+.os-table .os-td, .os-table .os-th {
+    background: #333;
+}
+
+.panel-content-pane .content-footer {
+    background: #333;
+}
+
+.right-pane-header-tabs {
+    background: #333 !important;
+}
 
 /* ------------ General Styles --------------- */
 
